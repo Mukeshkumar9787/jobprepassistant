@@ -45,7 +45,7 @@ export async function generateStructuredJson<T>(options: GenerateJsonOptions): P
     return pRetry(
       async () => {
         const ai = getGenAI();
-        const modelName = config.geminiModel || 'gemini-2.5-flash';
+        const modelName = config.geminiModel || 'gemini-3.6-flash';
         
         const model = ai.getGenerativeModel({
           model: modelName,
