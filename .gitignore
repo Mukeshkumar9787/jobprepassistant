@@ -29,7 +29,7 @@ Thumbs.db
 .turbo/
 
 # Testing
-coverage/
+/coverage/
 
 # Logs
 *.log
