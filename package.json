@@ -1,0 +1,25 @@
+{
+  "name": "jobprepassistant",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI Interview Prep Kit — Turn a job description into a personalised interview preparation kit",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "test": "turbo test",
+    "lint": "turbo lint",
+    "evaluate": "npm run evaluate --workspace=apps/api --"
+  },
+  "devDependencies": {
+    "turbo": "^2.4.0",
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "packageManager": "npm@10.0.0"
+}
